@@ -64,10 +64,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PlayerAttack.cs" />
-    <Compile Include="Assets\PlayerJump.cs" />
-    <Compile Include="Assets\PlayerStatics.cs" />
-    <Compile Include="Assets\PlayerWalk.cs" />
+    <Compile Include="Assets\EnemyMovement.cs" />
+    <Compile Include="Assets\PlayerWeaponHandler.cs" />
+    <Compile Include="Assets\Scripts\Character.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemy_Swordsman.cs" />
+    <Compile Include="Assets\Scripts\GameplayStatics.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerAttack.cs" />
+    <Compile Include="Assets\Scripts\PlayerJump.cs" />
+    <Compile Include="Assets\Scripts\PlayerStatics.cs" />
+    <Compile Include="Assets\Scripts\PlayerWalk.cs" />
+    <Compile Include="Assets\Scripts\Sword.cs" />
+    <Compile Include="Assets\Scripts\Weapon.cs" />
     <None Include="Assets\Medieval_pixel_art_asset_FREE\pixel_snapping_README.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
