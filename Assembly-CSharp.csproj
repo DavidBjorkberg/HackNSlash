@@ -64,7 +64,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EnemyAttack.cs" />
     <Compile Include="Assets\EnemyMovement.cs" />
+    <Compile Include="Assets\EnemyWeaponHandler.cs" />
     <Compile Include="Assets\PlayerWeaponHandler.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />

@@ -6,7 +6,12 @@ public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private float attackCooldown;
     [SerializeField] private KeyCode attackButton;
-    [SerializeField] private Animator animator;
+    private Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Player>().GetAnimator();
+    }
 
     private void Update()
     {

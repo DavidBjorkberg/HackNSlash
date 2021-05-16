@@ -130,6 +130,7 @@ MonoBehaviour:
   attackAnimClip: {fileID: 7400000, guid: fe941ea52c58bdf4ea8979cab7a1ab29, type: 2}
   damage: 10
   force: 10
+  range: 1.5
 --- !u!50 &5915306599761999595
 Rigidbody2D:
   serializedVersion: 4

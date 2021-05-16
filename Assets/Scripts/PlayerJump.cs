@@ -8,10 +8,11 @@ public class PlayerJump : MonoBehaviour
     [SerializeField] private KeyCode jumpButton;
     [SerializeField] private LayerMask levelLayer;
     [SerializeField] private float groundedCheckLength;
-    [SerializeField] private Animator animator;
+    private Animator animator;
     private Rigidbody2D rb;
     private void Awake()
     {
+        animator = GetComponent<Player>().GetAnimator();
         rb = GetComponent<Rigidbody2D>();
     }
     private void Update()

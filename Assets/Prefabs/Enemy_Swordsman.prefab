@@ -331,6 +331,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 6630381769893825850}
   movementSpeed: 3
+  levelLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  groundedCheckLength: 0.5
 --- !u!114 &1421414621063916320
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &109351135 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5488434314067965281, guid: 97eb7774f92b4f6479d1181d3429accb,
+    type: 3}
+  m_PrefabInstance: {fileID: 6310675677675930939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &505045962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1717,6 +1723,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &786559630 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4653937186057386084, guid: 97eb7774f92b4f6479d1181d3429accb,
+    type: 3}
+  m_PrefabInstance: {fileID: 6310675677675930939}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &786559631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786559630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecbbe680f81ec846903a5888add2284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWeapon: {fileID: 8698298036746681805, guid: f677fc75bcde77a4cb4945537d9fbf1e,
+    type: 3}
+  weaponSocket: {fileID: 109351135}
+--- !u!114 &786559632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786559630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cce2f37a7b239f4e94829127159f8f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &786564723 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6630381769893825850, guid: 97eb7774f92b4f6479d1181d3429accb,
+    type: 3}
+  m_PrefabInstance: {fileID: 6310675677675930939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &884713609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,6 +1818,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1c957c877961064fba398a6d3266b95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1320060557 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1350114195, guid: 15cab78e984f45749a30900d78c937f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 2050286630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1619115013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,6 +1875,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1147021162, guid: 15cab78e984f45749a30900d78c937f8, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1320060557}
+    - target: {fileID: 2058523020093553853, guid: 15cab78e984f45749a30900d78c937f8,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2059765855778516685, guid: 15cab78e984f45749a30900d78c937f8,
         type: 3}
       propertyPath: m_Name
@@ -1893,6 +1953,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1421414621063916320, guid: 97eb7774f92b4f6479d1181d3429accb,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 786564723}
+    - target: {fileID: 1421414621063916320, guid: 97eb7774f92b4f6479d1181d3429accb,
+        type: 3}
+      propertyPath: startWeapon
+      value: 
+      objectReference: {fileID: 8698298036746681805, guid: f677fc75bcde77a4cb4945537d9fbf1e,
+        type: 3}
+    - target: {fileID: 1421414621063916320, guid: 97eb7774f92b4f6479d1181d3429accb,
+        type: 3}
+      propertyPath: weaponSocket
+      value: 
+      objectReference: {fileID: 109351135}
     - target: {fileID: 4653937186057386084, guid: 97eb7774f92b4f6479d1181d3429accb,
         type: 3}
       propertyPath: m_Name

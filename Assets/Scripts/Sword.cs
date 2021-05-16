@@ -6,10 +6,9 @@ public class Sword : Weapon
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (heldState != HeldState.Dropped 
-            /*&&     !GamePlayStatics.Instance.IsAnimationPlaying(charAnimator, "Attack")*/)
+        if (heldState != HeldState.Dropped
+            && GameplayStatics.Instance.IsAnimationPlaying(charAnimator, "Attack"))
         {
-
             Vector3 dir = owner.GetFacingDir();
 
             if (heldState == HeldState.Player)

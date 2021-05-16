@@ -24,4 +24,8 @@ public abstract class Weapon : MonoBehaviour
         charAnimator = animator;
         owner = character;
     }
+    public float GetRange()
+    {
+        return range;
+    }
 }

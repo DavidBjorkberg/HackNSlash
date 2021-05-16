@@ -4,7 +4,11 @@ using UnityEngine;
 public class PlayerWalk : MonoBehaviour
 {
     [SerializeField] private float movementSpeed;
-    [SerializeField] private Animator animator;
+    private Animator animator;
+    private void Awake()
+    {
+        animator = GetComponent<Player>().GetAnimator();
+    }
     void Update()
     {
         float horizontalMovement = Input.GetAxisRaw("Horizontal");

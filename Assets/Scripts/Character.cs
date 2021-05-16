@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Character : MonoBehaviour
 {
+    [SerializeField] private Animator animator;
     public abstract void TakeDamage(int amount, Vector3 dir, float force);
     public virtual Vector3 GetFacingDir()
     {
@@ -15,5 +16,9 @@ public abstract class Character : MonoBehaviour
         {
             return Vector3.right;
         }
+    }
+    public Animator GetAnimator()
+    {
+        return animator;
     }
 }
